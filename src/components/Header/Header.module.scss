@@ -1,0 +1,52 @@
+.header {
+  font-size: 16px;
+  line-height: 2.62em;
+  padding: 3.34em 0;
+  margin-bottom: 1em;
+  .logo {
+    max-width: 50vw;
+  }
+  .navbarMenu {
+    margin-top: 3.5em; //(line-height + padding)
+    .navlink {
+      display: block;
+      font-family: "be_vietnamextrabold";
+      letter-spacing: 0.15em;
+      padding: 0rem 0.89em;
+      text-decoration: none;
+      border-top: 0.1rem solid var(--text);
+      color: var(--dark);
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .header {
+    margin-bottom: 3.34em;
+    .navbarMenu {
+      margin-top: 0 !important;
+      .navlink {
+        border-radius: 0.4em;
+        display: inline-block;
+        border-top: none !important;
+      }
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}

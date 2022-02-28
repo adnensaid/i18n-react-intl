@@ -1,0 +1,16 @@
+{
+  "app.header.navlink0": "HOME",
+  "app.header.navlink1": "SERVICES",
+  "app.header.navlink2": "PORTFOLIO",
+  "app.header.navlink3": "TESTIMONIALS",
+  "app.header.navlink4": "CONTACT",
+  "app.titleContact": "CONTACT US",
+  "app.titleTestimonials": "TESTIMONIALS",
+  "app.titleServices": "SERVICES",
+  "app.titlePortfolio": "PORTFOLIO",
+
+  "app.banner.title": "CREATION OF CUSTOM WEBSITES AND MOBILE APPLICATIONS",
+
+  "app.content": "Learn React",
+  "app.channel.plug": "Tutorial brought to you by Lokalise {blogName}"
+}

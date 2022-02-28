@@ -1,0 +1,71 @@
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto;
+}
+.container-fluid {
+  max-width: 1400px !important;
+  margin: 0 auto;
+}
+.btn {
+  font-family: "be_vietnammedium";
+  color: var(--light);
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.35em 1.6em;
+  border: 0.1em solid var(--primary);
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.4em;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.2s;
+  &:hover {
+    color: var(--light) !important;
+  }
+}
+
+.paragraph {
+  font-family: "robotoregular";
+  color: var(--blue-secondary);
+}
+.title {
+  font-family: "be_vietnamsemibold";
+  color: var(--text-primary);
+}
+.underline {
+  width: 20%;
+  height: 0.3rem;
+  background: var(--primary);
+}
+
+.title-section {
+  color: var(--gray-title);
+  font-size: 4.5em;
+  line-height: 1em;
+  text-align: center;
+  font-family: "be_vietnamextrabold";
+}
+.titre-secondary {
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  font-family: "bahnschrift";
+  color: var(--blue-secondary);
+  margin: 0;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 576px) {
+  .active {
+    background: $primary;
+    color: $body-bg !important;
+  }
+  .header-light {
+    color: var(--light);
+  }
+  .header-dark {
+    color: var(--text);
+  }
+  .title-section {
+    text-align: left;
+  }
+}

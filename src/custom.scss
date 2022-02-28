@@ -1,0 +1,15 @@
+$primary: #f9aa00;
+$secondary: #046ccd;
+$info:#0889cb;
+$body-bg: #FFF;
+$body-color: #000;
+/* font size */
+$font-size-base:              1rem;
+$font-size-sm:                $font-size-base * .875;
+$font-size-lg:                $font-size-base * 1.25;
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+
+.fs-1{
+  font-size: 10rem;
+}

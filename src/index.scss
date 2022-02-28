@@ -1,0 +1,65 @@
+@import "./assets/styles/reset";
+@import "./custom.scss";
+@import "./assets/styles/variables";
+@import "./assets/styles/classes";
+@import "./assets/styles/utils";
+
+/*  fonts */
+@import "./assets/fonts/bevietnam/stylesheet.css";
+@import "./assets/fonts/opensans/stylesheet.css";
+@import "./assets/fonts/roboto/stylesheet.css";
+@import "./assets/fonts/Bahnschrift/stylesheet.css";
+@import "./assets/fonts/myriad/stylesheet.css";
+
+/* classes */
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  color: var(--text);
+  font-family: "robotoregular";
+  font-size: 1.4rem;
+}
+
+#pills-contact-tab.active {
+  background: $secondary;
+  color: var(--light) !important;
+  border-radius: 1rem;
+}
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  .page {
+    margin-top: 20rem;
+  }
+  .section {
+    margin-bottom: 6rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+}

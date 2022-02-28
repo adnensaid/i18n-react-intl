@@ -1,0 +1,42 @@
+.banner {
+  min-height: 100vh;
+  padding-top: 25vh;
+  position: relative;
+  .card {
+    font-size: 1.6rem;
+    max-width: 28.75em;
+    border: 0;
+    .cardTitle {
+      font-size: 1.875em;
+      letter-spacing: 0.1em;
+      line-height: 1.3em;
+      margin: 0;
+      margin-bottom: 1.3333em;
+    }
+    .cardText {
+      font-size: 1.5em;
+      line-height: 1.2em;
+      margin: 0;
+      margin-bottom: 1.6666em;
+    }
+    .underline {
+      margin-bottom: 2.5em;
+      width: 50%;
+    }
+    .navLink {
+      font-size: 1.5em;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    width: 51.3%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: center center / cover url(../../../../assets/images/banner.png)
+      no-repeat;
+    background-position: 0rem -30rem;
+    z-index: -1;
+  }
+}
